@@ -13,15 +13,11 @@
 
     align-content: start;
 
-    padding-top: 237px;
-
     &__title {
-        position: absolute;
-        top: 154px;
+        padding-bottom: 10px;
         color: white;
         font-family: $font-alegreya;
         font-size: 20px;
-        font-weight: 300;
         @include border-left;
     }
 }

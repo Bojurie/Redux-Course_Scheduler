@@ -18,7 +18,6 @@ class Schedule extends Component {
         })
     }
 
-
     render() {
         this.amountEnrolled = 0
         return (
