@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import Library from './Library/library';
-import Schedule from './Schedule/schedule';
+import Library from './library/library';
+import Schedule from './schedule/schedule';
 
- class Home extends Component {
+class Home extends Component {
   render() {
     return (
       <div className="home">
@@ -13,4 +13,5 @@ import Schedule from './Schedule/schedule';
     );
   }
 }
- export default Home;
+
+export default Home;
