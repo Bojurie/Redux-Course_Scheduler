@@ -1,6 +1,10 @@
 {
   "name": "react-redux",
   "version": "1.0.0",
+  "engine": {
+    "node": "8.3.11",
+    "npm": "5.6.0"
+  },
   "description": "Basic skeleton codebase for React/Redux applications.",
   "scripts": {
     "preinstall": "npm set audit false",
@@ -11,7 +15,6 @@
     "precommit": "eslint src",
     "prod": "NODE_ENV=production node server.js"
   },
-  
   "repository": {
     "type": "git",
     "url": "git@github.com:bottega-code-school/js-builder.git"
@@ -84,5 +87,4 @@
     "webpack": "^4.16.4",
     "webpack-dev-server": "^3.1.9"
   }
-  
 }
